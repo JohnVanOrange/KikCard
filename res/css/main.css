@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Boogaloo';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Boogaloo.ttf);
+}
+
+body {
+  background-image: url(../img/grey_wash_wall.png);
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	background-color: rgba(0, 90, 49, 0.8);
+	text-shadow: 2px 2px 4px #000;
+	height: 39px;
+}
+
+h1 {
+	margin: 0;
+	padding-left: 3px;
+	font-family: 'Boogaloo';
+	color: white;
+}
+
+#main {
+	padding-top: 39px;
+  width: 100%;
+}
+
+#share {
+	float: right;
+	margin-top: -37px;
+	margin-right: 2px;
+}
+
+#next {
+	float: right;
+	margin-top: -37px;
+	margin-right: 70px;
+}
+
