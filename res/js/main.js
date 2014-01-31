@@ -1,4 +1,3 @@
-$(document).ready(function() {
 	var api = {
 		client : function (method, callback, opt) {
 			if (!opt) {
@@ -75,5 +74,3 @@ $(document).ready(function() {
   });
 	
 	cards.metrics.enableGoogleAnalytics('UA-126218-10', 'kik.prettylovable.com');
-	
-});
