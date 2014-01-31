@@ -74,4 +74,6 @@ $(document).ready(function() {
 		image.next();
   });
 	
+	cards.metrics.enableGoogleAnalytics('UA-126218-10', 'kik.prettylovable.com');
+	
 });
