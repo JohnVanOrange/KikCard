@@ -5,77 +5,30 @@
   src: url(../fonts/Boogaloo.ttf);
 }
 
-body {
-  background-image: url(../img/grey_wash_wall.png);
-	background-size: 350px 259px;
+.app-topbar {
+	background-color: rgba(0, 90, 49, 1);
 }
 
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (        min-device-pixel-ratio: 2),
-only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) {
- 
-	body {
-		background-image: url(../img/grey_wash_wall_@2X.png);
-		background-size: 350px 259px;
-	}
-}
-
-header {
-	position: fixed;
-	width: 100%;
-	background-color: rgba(0, 90, 49, 0.8);
-	text-shadow: 2px 2px 4px #000;
-	height: 39px;
-}
-
-h1 {
-	margin: 0;
-	padding-left: 5px;
+.app-title {
 	font-family: 'Boogaloo';
 	color: white;
+	text-shadow: 2px 2px 4px #000;
 }
 
 #main {
-	padding-top: 39px;
   width: 100%;
 }
 
 #share {
-	float: right;
-	margin-top: -37px;
-	margin-right: 2px;
+	right: 64px;
 }
 
-#next {
-	position: absolute;
-	right: 5px;
-	top: 55px;
-	background-color: rgba(0, 0, 0, 0.5);
-	border-color: transparent;
-	padding: 0;
-	width: 30px;
-	height: 30px;
-	border-radius: 15px;
-	outline: none;
-	transition: background-color .1s ease-out;
+.kik-icon {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3AwNFQ8HnaOr3wAAA/BJREFUeNrtmk1oXFUUx3+JSRvSCa0tKigWiqVMU6SigiKuLMUmi+4sSHHdRemiLroRutCtKxcK1pVVEiJJNa2IhmArflQQKy2llIqo1E1rzSQzMSVffzc3UOx79yMzb+YtzoFhYO6575z3m3vPuffc2yUJk3zpNgQGyAAZIANkgAyQATJAJgbIABkgA2SADJABMkAmBsgAGSADVC5AVWACmAXmgDPAYIn83At8DtSBGjAKPNEWy5J2S6rpfqlJ2iOJDn+elTSf4d8tSTuKto+kz5QvZ0sA6ILHv9NF2++SVAcqOQOsAQx0cGptABY8sfIm8HjRMajiaa90OPb0BxJJpV1B2sQAGaDSAeoDjgKfApPA68CmiH6Dbp01V/Caa5PzadL5eNT5nLwOCklW+huQdDFD94qkbZ60uSdxzbUl4NtMjp1tki5n6P/ofE9aB6UC6pc07dH/wGNwMnHNtR5Am3P+vDV5u0hAIThroyHPYMPTr94CQCE4kvR7CqCUGNQPnAVeCuhVgC5PXChqTbMZ+BJ4LqA3UESQjoUDcAlo972+WDgAP7caUAqcFeCNEsNZBE62Oot9pTiZl3QwMKdTE0IoBtUlfR/pX03SvvXs5lshNUkvRBhsNaBYuSXpqRyfNkgalXRH0or7HpXUu7abbzZe3AaGgZ9iBmyg/f/BfQsw06R/N4EDwNWcasFVYGdG26/AYE+Txv8ChoArJd0p/Aa87F42Sz7MgYP7/XSze7HxEsMB+MgDB2B/oP/+ZqeYgIPAuQT9dk6xZWAf8I0n6/oGyWqzI6jLDdMdJR1BPcAI8EhOey3Qv9aKcseDwBiwsaSQHgU+Bh7IaJsK9J1qVZqXpPdKnOYl6a2M5/dKupGjf0NSb4zTK5LelbQcoftaBwAtOf9WI95jKAdS7jooxulD7kFvRug2AmdprQa0JGnY6b4T8fy/JW0vqtzRI+nbCP1rkra2CdC95Y4+Sb9E2PghpWjWnZgyD0dE/irwnQve7ZS7wKvAvwG954HzkeXh5Jr0H8CRCL0qcKIDGesacDxC72ngWFFF+zHgVITecIfS+vvAJxF6Q7GA6p72Rs7vx92/lQq/kWhrHlhdh39H3GhvenB0A9Oe9ry2eTff7yb2/dqjn9W25Nkm+PybcfFyeR197yuYVT1HMdVAlD8gaSGj75+SHs7Q91212Z1j4xnP9ZdQyn5F0mJG3+uuwB+V5pG0S9K4pFlJc5ImIuDce3/nC/cS/7grKY959KuSzjg7sbaelHTOVRBrkkYS7ga96E5iFiTddsdSD6Vcf7Hz5YKOng2QiQEyQAbIABkgA2SADJABMjFABsgAGaASyn8Dmjd0DMgppAAAAABJRU5ErkJggg==);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:36px 36px;
+	width:36px;
+	height:44px;
+	margin:auto;
 }
-
-#next:active {
-	background-color: rgba(0, 0, 0, 0.9);
-}
-
-#next span {
-	color: white;
-	font-size: x-large;
-	font-weight: 900;
-	vertical-align: middle;
-	line-height: 0;
-	display: inline-block;
-	margin-top: -4px;
-	margin-left: 1px;
-}
-

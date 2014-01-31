@@ -2,27 +2,31 @@
 <html>
 <head>
 	<title>Pretty Lovable Pics</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width,
+                                 initial-scale=1.0,
+                                 maximum-scale=1.0,
+                                 user-scalable=no">
+  <link rel="stylesheet" href="http://cdn.kik.com/app/1/default.css">
 	<meta name="kik-prefer" content="true">
 	<link rel="kik-icon" href="res/icon256/bear.png">
-	<link rel='stylesheet' href='res/bootstrap/bootstrap.min.css' />
 	<link rel='stylesheet' href='res/css/main.css' />
 </head>
 
 <body>
 
-	<header>
-		<h1>Pretty Lovable</h1>
-		<button class='btn btn-default' id='next'><span>></span></button>
-		<button class='btn btn-default' id='share'>Share</button>
-	</header>
+	<div class="app-topbar">
+		<div class="app-title">Pretty Lovable</div>
+		<div class="app-button right" id="share"><div class="kik-icon"></div></div>
+		<div class="app-button right" id="next">Next ></div>
+	</div>
 	
-	<img id='main'>
-	
+	<div class="app-content">
+		<img id='main'>
+	</div>
 	
 	<script src="http://cdn.kik.com/cards/0.11.3/cards.js"></script>
-	<script src="res/jquery/jquery-2.1.0.min.js"></script>
-	<script src="res/bootstrap/bootstrap.min.js"></script>
+	<script src="http://zeptojs.com/zepto.min.js"></script>
+  <script src="http://cdn.kik.com/app/1/app.js"></script>
 	<script src="res/js/main.js"></script>
 </body>
 </html>
