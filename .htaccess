@@ -1,3 +1,5 @@
+AddType text/cache-manifest .manifest
+
 RewriteEngine On
 Options +FollowSymlinks
 
