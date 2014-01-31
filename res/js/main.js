@@ -38,6 +38,9 @@ var image = {
       api.call('image/random', function(data){
 				$('#main').attr('data-next-uid', data.uid);
 				$('#main').attr('data-next-src', data.image_url);
+				var next_image = new Image();
+				next_image.src = data.image_url;
+				
       });
       return;
     },
