@@ -65,6 +65,7 @@
 	    title : 'Pretty Lovable Pics' ,
 	    text  : 'Check this out!'  ,
 	    pic   : $('#main').attr('src'),
+			big		: true,
 	    data  : { uid : $('#main').attr('data-uid') }
 		});
   });
