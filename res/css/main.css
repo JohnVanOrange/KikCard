@@ -7,6 +7,21 @@
 
 body {
   background-image: url(../img/grey_wash_wall.png);
+	background-size: 350px 259px;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+ 
+	body {
+		background-image: url(../img/grey_wash_wall_@2X.png);
+		background-size: 350px 259px;
+	}
 }
 
 header {
@@ -19,7 +34,7 @@ header {
 
 h1 {
 	margin: 0;
-	padding-left: 3px;
+	padding-left: 5px;
 	font-family: 'Boogaloo';
 	color: white;
 }
@@ -36,8 +51,31 @@ h1 {
 }
 
 #next {
-	float: right;
-	margin-top: -37px;
-	margin-right: 70px;
+	position: absolute;
+	right: 5px;
+	top: 55px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-color: transparent;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	outline: none;
+	transition: background-color .1s ease-out;
+}
+
+#next:active {
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+#next span {
+	color: white;
+	font-size: x-large;
+	font-weight: 900;
+	vertical-align: middle;
+	line-height: 0;
+	display: inline-block;
+	margin-top: -4px;
+	margin-left: 1px;
 }
 
