@@ -2,7 +2,7 @@ CACHE MANIFEST
 
 http://cdn.kik.com/app/1/default.css
 /res/icon256/bear.png
-http://cdn.kik.com/cards/0.11.3/cards.js
+http://cdn.kik.com/kik/1.0.0/kik.js
 http://zeptojs.com/zepto.min.js
 http://cdn.kik.com/app/1/app.js
 
